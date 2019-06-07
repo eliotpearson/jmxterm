@@ -8,10 +8,3 @@ notifications:
   email:
     recipients:
       - eliot.pearson@gmail.com
-deploy:
-  provider: releases
-  api_key: "358368ef5c18541115dfab03be3d228186afe61e"
-  file: "target/jmxterm-1.0.2-vzm-uber.jar"
-  skip_cleanup: true
-  on:
-    tags: true
