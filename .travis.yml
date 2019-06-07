@@ -1,8 +1,6 @@
 language: java
 jdk:
   - openjdk11
-before_install:
-  - export JAVA_HOME=/usr/local/openjdk-11
 script:
   - mvn clean
   - mvn verify
